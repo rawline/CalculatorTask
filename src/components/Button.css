@@ -1,0 +1,25 @@
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    border-radius: 12px;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-radius: 50px;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #ffffff23;
+}
+
+.button:active {
+    transform: scale(0.95);
+}

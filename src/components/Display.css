@@ -1,0 +1,21 @@
+.display {
+    width: 100%;
+    height: 100px;
+    /* Пример высоты, можно изменить */
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: clamp(20px, 5vw, 36px);
+    /* Автоматическое уменьшение размера шрифта */
+    font-weight: bold;
+    color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.display p {
+    margin: 0;
+}
